@@ -1,0 +1,43 @@
+
+<ion-content [fullscreen]="true">
+
+  <div class="container">
+
+    <!-- Lado izquierdo -->
+    <div class="left">
+      <div class="img-container">
+        <img
+          class="imgxd"
+          src="assets/Firulapp-logo.jpg"
+          alt="Logo de Firulapp"
+        >
+        <h1 class="text-logo">FiRULAPP</h1>
+      </div>
+    </div>
+
+    <!-- Lado derecho -->
+    <div class="right">
+      <div class="form">
+        <fieldset>
+          <legend>Inicio de sesión</legend>
+
+          <input
+            class="space"
+            type="text"
+            placeholder="Usuario"
+          >
+
+          <input
+            class="space"
+            type="password"
+            placeholder="Contraseña">
+
+          
+          <ion-button class="btn" [routerLink]="['/main']">Entrar</ion-button>
+        </fieldset>
+      </div>
+    </div>
+
+  </div>
+
+</ion-content>
